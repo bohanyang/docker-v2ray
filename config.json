@@ -29,7 +29,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/v2ray"
+          "path": "/a52a2065e863a71ed0175cc93bb3ec17"
         }
       }
     }
@@ -38,7 +38,7 @@
     {
       "protocol": "freedom",
       "settings": {
-        "domainStrategy":  "UseIPv4"
+        "domainStrategy": "UseIPv4"
       }
     },
     {
