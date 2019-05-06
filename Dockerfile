@@ -1,6 +1,6 @@
 FROM bohan/v2ray-core:4.18.0
 
-COPY config.json /etc/v2ray
+COPY config.json /etc/v2ray/
 
 COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
