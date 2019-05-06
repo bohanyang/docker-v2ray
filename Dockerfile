@@ -1,10 +1,8 @@
-FROM v2ray/official:latest
-
-RUN apk add --no-cache sed util-linux
+FROM bohan/v2ray-core:4.18.0
 
 COPY config.json /etc/v2ray
 
-COPY docker-entrypoint.sh /usr/local/bin
+COPY docker-entrypoint.sh /usr/local/bin/
 ENTRYPOINT ["docker-entrypoint.sh"]
 
 EXPOSE 80

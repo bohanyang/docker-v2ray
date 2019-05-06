@@ -29,7 +29,7 @@
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/a52a2065e863a71ed0175cc93bb3ec17"
+          "path": "/v2ray"
         }
       }
     }
