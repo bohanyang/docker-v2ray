@@ -3,7 +3,7 @@
 set -e
 
 if [ -n "$V2RAY_CONFIG_URL" ]; then
-  wget -O /etc/v2ray/config.json "$V2RAY_CONFIG_URL"
+  wget -q -O /etc/v2ray/config.json "$V2RAY_CONFIG_URL"
 else
   if [ -z "$V2RAY_UUID" ]; then
     V2RAY_UUID="$(cat /proc/sys/kernel/random/uuid)"
