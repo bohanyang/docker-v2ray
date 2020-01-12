@@ -1,4 +1,4 @@
-FROM bohan/v2ray-core:4.21.3
+FROM bohan/v2ray-core:4.22.1
 
 COPY config.json /etc/v2ray/
 
